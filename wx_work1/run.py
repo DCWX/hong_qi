@@ -17,7 +17,7 @@ class TestsuitRun:
         with open(SplitPsth().split_report(),"wb") as file:
             r=HTMLTestRunnerNew.HTMLTestRunner(stream=file,
                                              verbosity=2,
-                                             title="红旗接口测试报告",
+                                             title="Red flag interface test report",
                                              description="第一次运行",
                                              tester="无邪")
             r.run(suit)
